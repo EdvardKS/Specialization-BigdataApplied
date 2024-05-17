@@ -1,0 +1,4 @@
+http.host: "0.0.0.0"
+xpack.monitoring.elasticsearch.hosts: [ "http://172.20.0.2:9200" ]
+#Con docker network inspect <red> podrás saber la ip de elasticsearch  
+path.config: "/usr/share/logstash/config/proy.conf"
